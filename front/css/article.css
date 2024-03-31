@@ -1,0 +1,66 @@
+p {
+    color: #666;
+    font-size: 16px;
+    font-family: "Berlin Sans FB",serif;
+    margin: 10px 0 0 40px;
+    line-height: 1.5;
+}
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-family: "Berlin Sans FB",serif;
+    margin: 0 0 10px 10px;
+}
+
+
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #222222;
+}
+
+th {
+    background-color: #f2f2f2; /* Couleur de fond gris clair */
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Bordure inférieure gris clair */
+}
+
+.recipe {
+}
+
+.note {
+
+}
+
+.history {
+
+}
+
+.right {
+
+}
+
+
+.right2 {
+
+}
+
+.picture {
+    margin: 10px;
+    width: 300px;
+    border-radius: 40%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.conteneur {
+    text-align: center;
+}
