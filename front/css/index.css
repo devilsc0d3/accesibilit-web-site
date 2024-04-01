@@ -52,7 +52,7 @@ nav ul li a {
 
 .img {
     width: 150px;
-    /*height: 150px;*/
+    height: 150px;
     background-size: cover;
 }
 
@@ -104,7 +104,15 @@ article img {
 
 h2 {
     font-family: "Berlin Sans FB", serif;
-    font-size: 58px;
+    font-size: 35px;
     color: #333;
     text-align: center;
 }
+
+h1 {
+    font-family: "bauhaus 93", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
