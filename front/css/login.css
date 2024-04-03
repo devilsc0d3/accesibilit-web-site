@@ -12,7 +12,7 @@ main {
     height: 100vh;
 }
 
-section {
+div {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
