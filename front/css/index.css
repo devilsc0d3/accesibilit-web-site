@@ -52,8 +52,8 @@ nav ul li a {
 
 .img {
     width: 150px;
-    height: 150px;
-    background-size: cover;
+    /*height: 150px;*/
+    /*background-size: cover;*/
 }
 
 article {
