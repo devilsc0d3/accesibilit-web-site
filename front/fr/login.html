@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rejoignez la communauté et partagez vos commentaires et expériences. en creant vous connectant">
+    <meta name="description" content="Rejoignez la communauté et partagez vos commentaires et expériences. en créant vous connectant">
 
-    <title>login</title>
+    <title>Login</title>
     <link style="" href="../css/login.css" rel="stylesheet">
-
 </head>
 
 <body>
-    <main>
-        <a href="index.html"><h1>Ygnole</h1></a>
-        <section>
-            <h2>Connect toi !</h2>
-            <form action="index.html" method="post">
-                <label for="email">Email :</label>
-                <input type="email" id="email" placeholder="Entrez votre email" aria-label="email" aria-required="true">
+<main>
+    <a href="index.html" aria-describedby="homeDescription"><h1>Ygnole</h1></a>
+    <p id="homeDescription" hidden>Cliquez ici pour revenir à la page d'accueil.</p>
 
+    <section tabindex="0" role="form" aria-label="Formulaire de connexion">
+        <h2>Connect toi !</h2>
+        <form action="index.html" method="post">
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="Entrez votre email" aria-label="Email" aria-required="true" tabindex="1">
 
-
-                <label for="password">Mot de passe :</label>
-                <input type="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" placeholder="Entrez votre mot de passe" aria-label="Mot de passe" aria-required="true" aria-describedby="passwordFormat">
-                <input type="submit">
-            </form>
-            <p id="passwordFormat">password doit contenire <br> - minuscule <br> - majuscule <br> - digits</p>
-        </section>
-    </main>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" placeholder="Entrez votre mot de passe" aria-label="Mot de passe" aria-required="true" aria-describedby="passwordFormat" tabindex="2">
+            <input type="submit" tabindex="3">
+        </form>
+        <p id="passwordFormat">Le mot de passe doit contenir :<br> - Au moins une lettre minuscule<br> - Au moins une lettre majuscule<br> - Au moins un chiffre</p>
+    </section>
+</main>
 </body>
 </html>

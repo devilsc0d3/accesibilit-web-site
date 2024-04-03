@@ -34,8 +34,8 @@ footer{
     margin-left: 20px;
 }
 
-nav ul {
-    list-style-type: none;
+nav ul a {
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }
@@ -45,7 +45,7 @@ nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
+nav ul li, a {
     color: #fff;
     text-decoration: none;
 }
@@ -114,5 +114,21 @@ h1 {
     font-size: 40px;
     color: #ffffff;
 }
+
+section:focus, article:focus {
+    outline: 4px dashed orange;
+}
+
+nav:focus {
+    outline: 4px dashed #b700ff;
+}
+
+a:focus {
+    outline: 4px dashed #0059ff;
+}
+
+
+
+
 
 
