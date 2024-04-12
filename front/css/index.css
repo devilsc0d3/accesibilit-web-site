@@ -132,3 +132,10 @@ nav:focus {
 a:focus {
     outline: 4px dashed #0059ff;
 }
+
+.ico {
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 50px;
+    transform: translateY(20%);
+}
