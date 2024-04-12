@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     color: #666;
     font-size: 16px;
@@ -57,3 +61,4 @@ td {
 .conteneur {
     text-align: center;
 }
+
