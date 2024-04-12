@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rejoignez la communauté et partagez vos commentaires et expériences. en créant vous connectant">
 
-    <title>Login</title>
+    <title>Login-Ygnole</title>
     <link style="" href="../css/login.css" rel="stylesheet">
 </head>
 
@@ -18,11 +18,11 @@
         <h2>Connect toi !</h2>
         <form action="index.html" method="post">
             <label for="email">Email :</label>
-            <input type="email" id="email" placeholder="Entrez votre email" aria-label="Email" aria-required="true" tabindex="0">
+            <input type="email" id="email" placeholder="Entrez votre email" required autocomplete="username">
 
             <label for="password">Mot de passe :</label>
-            <input type="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" placeholder="Entrez votre mot de passe" aria-label="Mot de passe" aria-required="true" aria-describedby="passwordFormat" tabindex="0">
-            <input type="submit" tabindex="0" value="Envoyer">
+            <input type="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" placeholder="Entrez votre mot de passe" aria-describedby="passwordFormat" required autocomplete="current-password">
+            <input type="submit" value="Envoyer">
         </form>
         <p id="passwordFormat">Le mot de passe doit contenir :<br> - Au moins une lettre minuscule<br> - Au moins une lettre majuscule<br> - Au moins un chiffre</p>
     </div>

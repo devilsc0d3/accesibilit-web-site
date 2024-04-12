@@ -34,6 +34,12 @@ footer{
     margin-left: 20px;
 }
 
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav ul a {
     text-decoration: none;
     margin: 0;
@@ -89,7 +95,7 @@ article div {
 }
 
 article p {
-    margin: 5px 0;
+    margin: 5px 50px;
     font-size: 14px;
     color: #666;
 }
