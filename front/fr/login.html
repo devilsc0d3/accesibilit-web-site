@@ -6,26 +6,28 @@
     <meta name="description" content="Rejoignez la communauté et partagez vos commentaires et expériences. en créant vous connectant">
 
     <title>Login-Ygnole</title>
+
     <link title="css de la page connexion" style="" href="../css/login.css" rel="stylesheet">
     <link title="icon du site" rel="shortcut icon" href="../../img/logo.ico">
 </head>
+
 <body>
-<main>
-    <a href="index.html" aria-describedby="homeDescription"><h1>Ygnole</h1></a>
-    <p id="homeDescription" hidden>Cliquez ici pour revenir à la page d'accueil.</p>
+    <main>
+        <a href="index.html" aria-describedby="homeDescription"><h1>Ygnole</h1></a>
+        <p id="homeDescription" hidden>Cliquez ici pour revenir à la page d'accueil.</p>
 
-    <div>
-        <h2>Connect toi !</h2>
-        <form action="index.html" method="post">
-            <label for="email">Email :</label>
-            <input type="email" id="email" placeholder="Entrez votre email" required autocomplete="username">
+        <div>
+            <h2>Connect toi !</h2>
+            <form action="index.html" method="post">
+                <label for="email">Email :</label>
+                <input type="email" id="email" placeholder="Entrez votre email" required autocomplete="username">
 
-            <label for="password">Mot de passe :</label>
-            <input type="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" placeholder="Entrez votre mot de passe" aria-describedby="passwordFormat" required autocomplete="current-password">
-            <input type="submit" value="Envoyer">
-        </form>
-        <p id="passwordFormat">Le mot de passe doit contenir :<br> - Au moins une lettre minuscule<br> - Au moins une lettre majuscule<br> - Au moins un chiffre</p>
-    </div>
-</main>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" placeholder="Entrez votre mot de passe" aria-describedby="passwordFormat" required autocomplete="current-password">
+                <input type="submit" value="Envoyer">
+            </form>
+            <p id="passwordFormat">Le mot de passe doit contenir :<br> - Au moins une lettre minuscule<br> - Au moins une lettre majuscule<br> - Au moins un chiffre</p>
+        </div>
+    </main>
 </body>
 </html>
