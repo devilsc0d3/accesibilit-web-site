@@ -62,7 +62,7 @@ nav ul li, a {
     /*background-size: cover;*/
 }
 
-article {
+article , aside{
     background-color: #ffffff;
     margin-left: 3%;
     width: 90%;
@@ -108,7 +108,7 @@ article img {
     border-radius: 5px;
 }
 
-h2 {
+h1 {
     font-family: "Berlin Sans FB", serif;
     font-size: 35px;
     color: #333;
