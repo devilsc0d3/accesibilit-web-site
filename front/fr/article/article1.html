@@ -3,40 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez les recettes, les histoires et les astuces pour concocter un cuba libre. Rejoignez la communauté et partagez vos commentaires et expériences.">
-
+    <meta name="description" content="Découvrez les recettes, les histoires et les astuces pour concocter un Cuba Libre. Rejoignez la communauté et partagez vos commentaires et expériences.">
     <link rel="shortcut icon" href="../../../img/logo.ico">
-
-    <title>cuba libre - ygnole </title>
+    <title>cuba libre - Ygnole </title>
     <link title="css pour le header" style="" href="../../css/index.css" rel="stylesheet">
     <link style="" href="../../css/article.css" rel="stylesheet">
-
 </head>
 
 <body>
 <header>
     <div class="logo-title-container">
-        <div class="title">
-            <h1>Ygnole</h1>
-        </div>
+        <p class="title">Ygnole</p>
     </div>
     <nav>
         <ul>
             <li><img src="../../../img/home.png" alt="logo accueil" class="ico"></li>
-            <li><a href="../index.html" title="link of home page">accueil</a></li>
-
+            <li><a href="../index.html" title="link of home page">Accueil</a></li>
             <li><img src="../../../img/login.png" alt="logo accueil" class="ico"></li>
             <li><a href="../login.html" title="link of login page">Connexion</a></li>
         </ul>
     </nav>
 </header>
+
 <main>
     <div class="date">
         <p>Publié le 12 avril 2024</p>
     </div>
 
-    <section class="history" aria-labelledby="history-heading">
-        <h2 id="history-heading">le sachez-tu ?</h2>
+    <article id="history" class="history" aria-labelledby="history-heading">
+        <h1 id="history-heading">Le Sachez-tu ?</h1>
         <p>
             Le "Cuba Libre" est un célèbre cocktail qui a vu le jour à Cuba et qui est devenu populaire dans le monde entier. <br>
             Le nom "Cuba Libre" signifie "Cuba libre" en espagnol et aurait été créé autour de la période de la guerre hispano-américaine à la fin du XIXe siècle ou au début du XXe siècle. <br>
@@ -48,13 +43,14 @@
             Cependant, il est largement accepté que le cocktail ait gagné en popularité pendant et après la guerre hispano-américaine et soit devenu associé à Cuba.<br>
             Aujourd'hui, le Cuba Libre reste un cocktail populaire à la fois à Cuba et à l'étranger. <br>
             C'est une boisson simple mais rafraîchissante qui a traversé les époques et continue d'être appréciée par les gens du monde entier.<br>
+            <a href="#recipe-heading">Voir la recette</a>
         </p>
-    </section>
+    </article>
 
-    <section class="recipe" aria-labelledby="recipe-heading">
-        <h2 class="right" id="recipe-heading">Recette</h2>
-        <table class="right2">
-            <caption>Recette de cuba libre</caption>
+    <article id="recipe" class="recipe" aria-labelledby="recipe-heading">
+        <h2 id="recipe-heading">Recette</h2>
+        <table>
+            <caption>Recette de Cuba Libre</caption>
             <thead>
             <tr>
                 <th scope="col">Ingrédient</th>
@@ -115,20 +111,22 @@
             </tr>
             </tfoot>
         </table>
+        <a href="#history-heading">Retour à l'article précédent</a>
+        <a href="#note-heading">Aller à la note</a>
+    </article>
 
-    </section>
-
-    <section class="note" aria-labelledby="note-heading">
-        <h2 id="note-heading">note personnel</h2>
+    <article id="note" class="note" aria-labelledby="note-heading">
+        <h2 id="note-heading">Note personnelle</h2>
         <div class="conteneur">
-            <img src="../../../img/Cuba_Libre-1472x1600.jpg" class="picture" alt="photo d'un cuba libre">
+            <img src="../../../img/Cuba_Libre-1472x1600.jpg" class="picture" alt="photo d'un Cuba Libre">
         </div>
         <p>
-            le cuba libre est un exellent  cocktail pour les soirées d'été, il est rafraichissant et simple à réaliser. rapport qualité cuite / 20
+            Le Cuba Libre est un excellent cocktail pour les soirées d'été, il est rafraîchissant et simple à réaliser. Rapport qualité-prix / 20.
         </p>
-    </section>
+        <a href="#recipe-heading">Retour à la recette</a>
+    </article>
 
-    <article id="commantary">
+    <aside id="comments">
         <h2>Commentaires</h2>
         <div>
             <div class="center">
@@ -136,32 +134,31 @@
                 <p>Super article, merci pour les infos !</p>
             </div>
             <br>
-            <div class="center">
-                <h3>joseph mayers</h3>
+            <div class="center" role="comment">
+                <h3>Joseph Mayers</h3>
                 <p>Je suis fan de ce cocktail, je le recommande à tout le monde !</p>
             </div>
         </div>
-    </article>
-
+    </aside>
 </main>
 
 <footer>
     <nav>
         <ul>
-            <li><a href="#">french</a></li>
-            <li><a href="#">english</a></li>
-            <li><a href="#">spanish</a></li>
-            <li><a href="#">german</a></li>
+            <li><a href="#">French</a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Spanish</a></li>
+            <li><a href="#">German</a></li>
         </ul>
     </nav>
 
     <nav>
         <ul>
-            <li><a href="#">cgu</a></li>
+            <li><a href="#">CGU</a></li>
         </ul>
     </nav>
 
-    <p class="white"> publier par Fauré Léo - 06 06 06 06 06 - exemple@mail.com<p>
+    <p class="white">Publié par Fauré Léo - 06 06 06 06 06 - exemple@mail.com</p>
 </footer>
 
 </body>
